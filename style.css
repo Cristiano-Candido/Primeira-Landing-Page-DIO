@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Passion1;
+    src: url(./assets/fonts/Passion_One/PassionOne-Bold.ttf);
+}
+
+@font-face {
+    font-family: Passion2;
+    src: url(./assets/fonts/Passion_One/PassionOne-Regular.ttf);
+}
+
+body {
+    background: linear-gradient(180deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+}
+
+.banner {
+    background-image: url(./assets/images/banner.png);
+    padding: 20px;
+    text-align: center;
+}
+
+.banner-content {
+    width: 510px;
+    height: 393px;
+    top: 56px;
+    left: 465px;
+    gap: 16px;
+    padding: 20px;
+    margin: auto;
+}
+
+.hr1{
+    margin-top: 130px;
+}
+
+.logo {
+    padding-bottom: 20px;
+    margin: auto;
+    width: 268px;
+    height: 268px;
+    background: #00000033;
+    border-radius: 50% / 50%;
+}
+
+h1 {
+    font-family: Passion1;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 10px;
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+}
+
+.p1 {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: #fff;
+    margin: auto;
+    width: 510px;
+    height: 46px;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border: 2px solid;
+    background-color: rgba(0, 0, 0, 0);
+    color: #31A8DD;
+    width: 300px;
+    height: 60px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 19px;
+    letter-spacing: 0.21em;
+    text-align: center;
+}
+
+#course-content {
+    background-color: #000;
+    text-align: center;
+}
+
+#course-content h2 {
+    width: 477px;
+    height: 38px;
+    margin: 100px auto 20px;
+    color: #33A8DB;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.p2 {
+    width: 792px;
+    height: 38px;
+    margin: 20px auto 15px;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+}
+
+.modules-list {
+    margin-bottom: 100px;   
+}
+
+.module{
+    margin: 20px auto;
+    background: linear-gradient(0deg, #252525, #252525), linear-gradient(0deg, #33A8DB, #33A8DB);
+    box-shadow: -2px 6px 4px 0px #00000066 inset;
+    color: #fff;
+    border: 1px solid #33A8DB;
+    border-radius: 57px;
+    gap: 10px;
+    line-height: 51px;
+    width: 535px;
+    height: 51px;
+    padding: 16px, 127px, 16px, 127px;
+}
+
+span{
+    color: #33A8DB;
+}
+
+#transform-world {
+    background-image: url(./assets/images/woman-code.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: solid 2px #33A8DB;
+    width: 100%;
+    height: 380px;
+}
+
+#transform-world p {
+    width: 244px;
+    height: 141px;
+    color: #fff;
+    font-family: Arial;
+    font-size: 30px;
+    line-height: 47px;
+    letter-spacing: 0em;
+    /* box-shadow: 3px 2px 0px 0px #33A8DB; */
+}
+
+#professional-challenges {
+    width: 659px;
+    height: 429px;
+    top: 1685px;
+    left: 390px;
+    margin: auto;
+}
+
+#professional-challenges h2 {
+    width: 746px;
+    height: 76px;
+    top: 1577px;
+    left: 347px;
+    color: #33A8DB;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0.19em;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.hr2 {
+    margin-top: 280px;
+}
+
+.p3 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.19em;
+    text-align: center;
+    margin: 50px 0;
+    color: white;
+}
+
+footer {
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
